@@ -1,0 +1,141 @@
+.toggle-div {
+  margin: 5px 10px 5px 10px;
+  display: inline-block;
+}
+
+.toggle-span {
+  margin-left: 10px;
+  display: inline-block;
+  vertical-align: super;
+}
+
+.force-lowerCase {
+  text-transform: capitalize !important;
+}
+
+.searchAnimationInput {
+  margin-right: 15px;
+  width: 0 !important;
+  transition: width ease-out 500ms, margin-left ease-out 0ms 350ms !important;
+  margin-left: 0 !important;
+}
+
+.searchAnimationInputActive {
+  margin-right: 15px;
+  margin-left: 12px !important;
+  transition: width ease-in 500ms !important;
+  width: 220px !important;
+}
+
+.MuiFab-primary:focus {
+  outline: none !important;
+}
+
+.column-popper:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid white;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  margin-left: 1px;
+  transform: translateX(-50%);
+}
+
+.rdt_TableRow:nth-child(odd) {
+  background-color: #fff;
+}
+
+.rdt_TableCol > div > div {
+  font-weight: 800;
+}
+
+.rdt_TableFooter {
+  justify-content: center;
+}
+
+.excel-report-icon {
+  transform: scale(1.8);
+  color: #3f51b5;
+}
+
+.MuiSpeedDial-root > button {
+  display: none !important;
+}
+
+.ksKbuS {
+  /* -webkit-flex: 1 0 auto; */
+  -ms-flex: 1 0 auto;
+  /* flex: 1 0 auto; */
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 22px;
+  font-weight: 400;
+  width: 100%;
+}
+
+.hYbSog {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  max-height: 100vh;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+}
+
+.hCZboD:first-of-type {
+  padding-left: 0px;
+}
+
+.lcMIZa:first-of-type {
+  padding-left: 0px;
+}
+
+.bpsOmt:last-child {
+  padding-right: 0px;
+}
+
+.hCZboD {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bTzaoF:last-child {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.cBYLcD {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.ftSrFl {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.bpsOmt {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.lcMIZa {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.fDJsFa {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.jJknLL {
+  display: none;
+}

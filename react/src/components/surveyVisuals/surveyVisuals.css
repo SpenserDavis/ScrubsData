@@ -1,0 +1,31 @@
+.survey-answer-span {
+  margin-left: 10px !important;
+}
+
+.survey-section-container > .row {
+  margin-left: 5px;
+}
+
+.survey-section-title {
+  justify-content: center;
+}
+
+.survey-question-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.survey-question-header {
+  align-content: center;
+  margin-right: 20px;
+}
+
+.survey-graph-container {
+  align-content: center;
+}
+
+.survey-graph {
+  max-height: 600px;
+}

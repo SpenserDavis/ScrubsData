@@ -1,0 +1,21 @@
+#span-apikey {
+  font-weight: 800;
+}
+
+#cancel-plan {
+  transform: scale(0.75);
+  float: right;
+}
+
+p {
+  color: black;
+}
+
+.scheme-container {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.preSwagger {
+  margin: 0 40px 0 40px;
+}

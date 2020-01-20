@@ -1,0 +1,189 @@
+.no-name {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.message-title {
+  margin-left: 10px;
+}
+
+.contactList-more {
+  transform: scale(0.6);
+}
+
+.contactList-title {
+  display: flex;
+  justify-content: center;
+}
+
+.MuiIconButton-root {
+  float: right;
+}
+
+.nav-item {
+  cursor: pointer !important;
+}
+
+#addContact {
+  width: 218px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.left-part {
+  height: 600px;
+}
+
+.chat-users {
+  overflow-y: scroll;
+  height: 375px !important;
+}
+
+.right-part.chat-list {
+  margin-left: 310px;
+}
+
+.right-part {
+  height: 600px !important;
+  max-width: 66%;
+}
+
+.addIcon {
+  cursor: pointer !important;
+}
+
+.contactInput:focus {
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+.label-search {
+  margin-top: 10px;
+}
+
+.scrollbar-container.chat {
+  height: 300px !important;
+  overflow-y: scroll !important;
+}
+
+.message-date {
+  color: gray;
+}
+
+.unread-count {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 20px;
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(255, 58, 58);
+  color: rgb(208, 255, 204);
+}
+
+.mail-desc,
+.mail-content {
+  width: 100%;
+}
+
+.chat-item {
+  max-width: 75% !important;
+}
+
+.chat-content > div {
+  border-radius: 25%;
+}
+
+.chat-item.odd {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.d-flex .message-input {
+  max-height: 175px !important;
+}
+
+#message-textarea {
+  width: 100%;
+  max-height: 175px;
+}
+
+#message-button {
+  width: 100px;
+  justify-self: flex-end;
+  margin-left: 20px;
+  max-height: 175px;
+}
+
+.meta-img {
+  max-width: 100px;
+  max-height: 100px;
+  padding: 5px;
+}
+
+.meta-list {
+  padding: 0;
+  list-style: none;
+}
+
+.meta-list > li {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.message-date,
+.message > span,
+.message > .chat-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.message-anchor {
+  color: white;
+}
+
+#dropzone-container {
+  max-width: 175px;
+  margin-right: 20px;
+  padding: 7px;
+  border-radius: 10%;
+}
+
+.file-img,
+.file-item > svg {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+.file-item {
+  margin: 5px;
+}
+
+.file-list {
+  text-align: center;
+}
+
+.drag {
+  background-color: #d3d3d3 !important;
+  z-index: 3 !important;
+}
+
+.box > section > .file-item {
+  cursor: pointer;
+}
+
+.close {
+  border: 1px solid red !important;
+  border-radius: 100%;
+  color: red !important;
+}
+
+#chat-begin {
+  text-align: center;
+}
